@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Physics the Smart Way</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Learn Physics the Smart Way</h1>
+    <p>Organize your notes, practice with flashcards, and track your progress.</p>
+  </header>
+
+  <section id="note-input">
+    <h2>Input Your Notes</h2>
+    <textarea placeholder="Paste your notes here..." id="notes-textarea"></textarea>
+    <button onclick="generateFlashcards()">Create Flashcards</button>
+  </section>
+
+  <section id="flashcards-container">
+    <h2>Generated Flashcards</h2>
+    <div id="flashcards"></div>
+  </section>
+
+  <section id="tools">
+    <h2>Study Tools</h2>
+    <button onclick="startPomodoro()">Start Pomodoro Timer</button>
+    <p id="pomodoro-timer">25:00</p>
+    <button onclick="startBreathingExercise()">Start Breathing Exercise</button>
+    <p id="breathing-timer">Inhale...</p>
+  </section>
+
+  <footer>
+    <p>Powered by Your Knowledge-Based Learning System</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
